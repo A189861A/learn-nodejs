@@ -1,0 +1,13 @@
+[
+  {
+    "id": "welcome-note",
+    "title": "欢迎使用 Node.js 学习实验室",
+    "content": "先运行 npm run list，再按章节执行示例。",
+    "tags": [
+      "node",
+      "入门"
+    ],
+    "createdAt": "2026-09-20T00:00:00.000Z",
+    "updatedAt": "2026-09-20T00:00:00.000Z"
+  }
+]
