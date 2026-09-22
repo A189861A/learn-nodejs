@@ -1,0 +1,15 @@
+
+
+
+# 建表 SQL
+``` sql
+    CREATE DATABASE IF NOT EXISTS test_db DEFAULT CHARACTER SET utf8mb4;
+    USE test_db;
+
+    CREATE TABLE IF NOT EXISTS user (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    age INT,
+    create_time DATETIME DEFAULT CURRENT_TIMESTAMP
+    );
+```
